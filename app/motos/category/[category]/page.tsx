@@ -41,6 +41,8 @@ export default function MotoCategoryPage({ params }: CategoryPageProps) {
       <div className="breadcrumbs">
         <Link href="/motos">Motos</Link>
         <span>/</span>
+        <Link href="/motos/category">Categories</Link>
+        <span>/</span>
         <span>{category}</span>
       </div>
       <section className="section">

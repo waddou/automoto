@@ -40,6 +40,8 @@ export default function MotoListingPage({ params }: ListingPageProps) {
       <div className="breadcrumbs">
         <Link href="/motos">Motos</Link>
         <span>/</span>
+        <Link href="/motos/category">Categories</Link>
+        <span>/</span>
         <Link href={`/motos/category/${listing.category}`}>
           {listing.category}
         </Link>

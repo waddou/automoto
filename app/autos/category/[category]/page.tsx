@@ -41,6 +41,8 @@ export default function AutoCategoryPage({ params }: CategoryPageProps) {
       <div className="breadcrumbs">
         <Link href="/autos">Autos</Link>
         <span>/</span>
+        <Link href="/autos/category">Categories</Link>
+        <span>/</span>
         <span>{category}</span>
       </div>
       <section className="section">

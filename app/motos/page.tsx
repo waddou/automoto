@@ -25,6 +25,7 @@ export default function MotosPage() {
           updated availability.
         </p>
         <div className="category-links">
+          <Link href="/motos/category">All categories</Link>
           {motoCategories.map((category) => (
             <Link key={category} href={`/motos/category/${category}`}>
               {category}

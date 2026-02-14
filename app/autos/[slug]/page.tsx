@@ -40,6 +40,8 @@ export default function AutoListingPage({ params }: ListingPageProps) {
       <div className="breadcrumbs">
         <Link href="/autos">Autos</Link>
         <span>/</span>
+        <Link href="/autos/category">Categories</Link>
+        <span>/</span>
         <Link href={`/autos/category/${listing.category}`}>
           {listing.category}
         </Link>

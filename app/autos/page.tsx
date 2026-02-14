@@ -25,6 +25,7 @@ export default function AutosPage() {
           and highlight features.
         </p>
         <div className="category-links">
+          <Link href="/autos/category">All categories</Link>
           {autoCategories.map((category) => (
             <Link key={category} href={`/autos/category/${category}`}>
               {category}

@@ -24,6 +24,7 @@ export default function HomePage() {
       <section className="section">
         <h2>Browse auto categories</h2>
         <div className="category-links">
+          <Link href="/autos/category">All auto categories</Link>
           {autoCategories.map((category) => (
             <Link key={category} href={`/autos/category/${category}`}>
               {category}
@@ -35,6 +36,7 @@ export default function HomePage() {
       <section className="section">
         <h2>Browse moto categories</h2>
         <div className="category-links">
+          <Link href="/motos/category">All moto categories</Link>
           {motoCategories.map((category) => (
             <Link key={category} href={`/motos/category/${category}`}>
               {category}
